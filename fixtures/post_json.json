@@ -1,24 +1,60 @@
-{
-    "1": {
-        "Attribution": "\u539f\u521b",
-        "author": "simple1_6",
-        "body": "- gbk\n```\nUnicodeDecodeError: \u2018gbk\u2019 codec can\u2019t decode byte 0x9d in position 1270: illegal multibyte sequence\n```\n\u8fd9\u5927\u6982\u5c31\u662futf-8\u548cgbk\u7684\u95ee\u9898\uff0c\u9047\u5230\u7684\u60c5\u51b5\u662f\u8fc7\u6ee4\u4e00\u4e2a\u6587\u4ef6\u7684\u6570\u636e\uff0c\u8fd9\u4e2a\u6587\u4ef6\u65f6gbk\u7f16\u7801\u7684\n\u89e3\u51b3\u65b9\u6cd5\uff1a\n```\n\u6539\u53d8\u6253\u5f00\u65b9\u5f0f\uff1a\nwith open ('','rb') as f:\n    f.read.decode('utf-8')\n```\n\u7528\u4e8c\u8fdb\u5236\u7684\u65b9\u6cd5\u6253\u5f00\uff0c\u7136\u540e\u518d\u8f6c\u7801\u672a`utf-8`",
-        "category": 1.0,
-        "create_time": "2018-03-20T10:49:56Z",
-        "renumber": 0.0,
-        "summary": "UnicodeDecodeError: \u2018gbk\u2019 codec can\u2019t decode byte 0x9d in position 1270: illegal multibyte sequence",
-        "tags": "[1]",
-        "title": "python\u9519\u8bef"
+[
+    {
+        "fields": {
+            "name": "python \u7b14\u8bb0"
+        },
+        "model": "blog.category",
+        "pk": 1
     },
-    "2": {
-        "Attribution": "\u539f\u521b",
-        "author": "simple1_6",
-        "body": "\u8bfb\u5199\u6587\u4ef6\u65f6\u4f7f\u7528`with`\u53ef\u4ee5\u5f88\u597d\u5730\u907f\u514d\u6587\u4ef6\u8bfb\u5199\u51fa\u9519\u6216\u8005\u662f\u5fd8\u8bb0\u5199\u5173\u95ed\u6587\u4ef6\u7684\u60c5\u51b5\n\u4f8b\u5982\uff0c\u6253\u5f00\u4e00\u4e2a\u6587\u4ef6\u8bfb\u5199\uff1a\n```\nf=open('F:\\python\\mytest\\mytest\\.idea\\contextlib_code.py')\nf.read()\nf.close()\n```\n\u6216\u8005\u662f\uff1a\n```\ntry:\n    f=open('F:\\python\\mytest\\mytest\\.idea\\contextlib_code.py')\n    f.read()\nfinally: \n    f.close()\n```\n\u6bd4\u8f83\u9ebb\u70e6\uff0c\u4f7f\u7528`with`\u8bed\u53e5\u53ef\u4ee5\u7701\u4e8b\n\n\u8bed\u6cd5\uff1a`with open('/path/to/contextlib_code.py', 'r') as f: `\n`with`\u8bed\u53e5\u5fc5\u8ddf`__enter__()`\u548c`__exit__()`\n\n\u610f\u4e49\u5728\u4e8e\uff1a\n\u7b2c\u4e00\u6b65\uff1a\u6267\u884c`__enter__()`\u5c06\u5176\u8fd4\u56de\u503c\u5e26\u7ed9`with`\n\u7b2c\u4e8c\u6b65\uff1a\u6267\u884c`with`\n\u7b2c\u4e09\u6b65\uff1a\u6267\u884c`__exit__()`\n\u4e3e\u4f8b\uff1a\n\n\n[\u5f15\u7528\u5ed6\u96ea\u5cf0python 3\u6559\u7a0b\uff1a](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001478651770626de401ff1c0d94f379774cabd842222ff000)\n```\n#-*- coding: utf-8 -*-\n\"\"\"\n#\u4f7f\u7528with\u8bed\u53e5\uff0c\u770b\u6267\u884c\u5148\u540e\u987a\u5e8f\n\"\"\"\nclass Query(object):\n    def __init__(self,name):\n        self.name=name\n    def __enter__(self):  #\u7b2c\u4e00\u6b65\u6267\u884c__enter__\n        print('Begin')\n        return self\n    def __exit__(self,exc_type,exc_value,tracback):  #\u7b2c\u4e09\u6b65\u6267\u884c\uff1a__exit__\n        if exc_type:\n            print('Error')\n        else:\n            print('End')\n    def query(self):\n        print('Query info about %s...' % self.name)\n\nwith Query('Bob') as q:                           #\u7b2c\u4e8c\u90e8\u6267\u884c\uff1a__with__\n    q.query()\n\n```\n\u6267\u884c\u7ed3\u679c\uff1a\n```\nBegin\nQuery info about Bob...\nEnd\n```\n\u539f\u7406\u662f\uff1a\n```\nwith context_expression [as target(s)]:\n    with-body\uff0c\n```\n   \u5b83\u7684\u6267\u884c\u987a\u5e8f\u662f\u8fd9\u6837\u7684\n\n1.\u6267\u884c context_expression\uff0c\u751f\u6210\u4e0a\u4e0b\u6587\u7ba1\u7406\u5668 context_manager\n\n2.\u8c03\u7528\u4e0a\u4e0b\u6587\u7ba1\u7406\u5668\u7684 enter() \u65b9\u6cd5\uff1b\u5982\u679c\u4f7f\u7528\u4e86 as \u5b50\u53e5\uff0c\u5219\u5c06 enter() \u65b9\u6cd5\u7684\u8fd4\u56de\u503c\u8d4b\u503c\u7ed9 as \u5b50\u53e5\u4e2d\u7684 target(s) \n\n3.\u6267\u884c\u8bed\u53e5\u4f53 with-body \n\n4.\u4e0d\u7ba1\u662f\u5426\u6267\u884c\u8fc7\u7a0b\u4e2d\u662f\u5426\u53d1\u751f\u4e86\u5f02\u5e38\uff0c\u6267\u884c\u4e0a\u4e0b\u6587\u7ba1\u7406\u5668\u7684 exit() \u65b9\u6cd5\uff0cexit() \u65b9\u6cd5\u8d1f\u8d23\u6267\u884c\u201c\u6e05\u7406\u201d\u5de5\u4f5c\uff0c\u5982\u91ca\u653e\u8d44\u6e90\u7b49\u3002\u5982\u679c\u6267\u884c\u8fc7\u7a0b\u4e2d\u6ca1\u6709\u51fa\u73b0\u5f02\u5e38\uff0c\u6216\u8005\u8bed\u53e5\u4f53\u4e2d\u6267\u884c\u4e86\u8bed\u53e5 break/continue/return\uff0c\u5219\u4ee5 None \u4f5c\u4e3a\u53c2\u6570\u8c03\u7528 exit(None, None, None) \uff1b\u5982\u679c\u6267\u884c\u8fc7\u7a0b\u4e2d\u51fa\u73b0\u5f02\u5e38\uff0c\u5219\u4f7f\u7528 sys.exc_info \u5f97\u5230\u7684\u5f02\u5e38\u4fe1\u606f\u4e3a\u53c2\u6570\u8c03\u7528 exit(exc_type, exc_value, exc_traceback)\n\n5.\u51fa\u73b0\u5f02\u5e38\u65f6\uff0c\u5982\u679c exit(type, value, traceback) \u8fd4\u56de False\uff0c\u5219\u4f1a\u91cd\u65b0\u629b\u51fa\u5f02\u5e38\uff0c\u8ba9with \u4e4b\u5916\u7684\u8bed\u53e5\u903b\u8f91\u6765\u5904\u7406\u5f02\u5e38\uff0c\u8fd9\u4e5f\u662f\u901a\u7528\u505a\u6cd5\uff1b\u5982\u679c\u8fd4\u56de True\uff0c\u5219\u5ffd\u7565\u5f02\u5e38\uff0c\u4e0d\u518d\u5bf9\u5f02\u5e38\u8fdb\u884c\u5904\u7406 \n\u8fd8\u6709\u4e00\u79cd\u65b9\u6cd5\u662f\u4f7f\u7528`contextlib`\u7684`contextmanager`\u7b80\u5316\u4f7f\u7528`__enter__`\u548c`__exit__`\n\u4f7f\u7528\u65b9\u6cd5\uff1a\n\n1.\u7528`yield`\u4ee3\u66ff`__enter__`\uff0c\u9996\u5148\u6267\u884c`yield`\u524d\u7684\u8bed\u53e5\uff0c\u7136\u540e\u6267\u884c`with`\u540e\u518d\u6b21\u6267\u884c`yield`\u540e\u7684\u8bed\u53e5\n\n\u4f8b\u5b50:[\u6765\u6e90\u4e8e\u5ed6\u96ea\u5cf0 python3 \u6559\u7a0b](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001478651770626de401ff1c0d94f379774cabd842222ff000)\n```\nfrom  contextlib import contextmanager\nclass Query(object):\n    def __init__(self,name):\n        self.name=name\n    def query(self):\n        print('Query info about %s...' % self.name)\n\n@contextmanager\ndef create_query(name):\n    print('Begin')\n    q=Query(name)\n    yield q\n    print('End')\n\nwith create_query('Bob') as q:\n    q.query()\n```\n\u7ed3\u679c\uff1a\n```\nBegin\nQuery info about Bob...\nEnd\n```\n\u5f53\u7136\u8fd9\u4e24\u79cd\u65b9\u6cd5\u90fd\u662f\u9700\u8981\u6709\u4e0a\u4e0b\u6587\u7684\uff0c\u5982\u679c\u4e00\u4e2a\u5bf9\u8c61\u6ca1\u6709\u4e0a\u4e0b\u6587\uff0c\u5219\u6ca1\u6709\u529e\u6cd5\u4f7f\u7528`with`\u548c`contextmanage`\n## `@closing`\u89e3\u51b3\u4e86\u6ca1\u6709\u4e0a\u4e0b\u6587\u7684\u60c5\u51b5\n\u53ef\u4ee5\u7528`closing()`\u6765\u628a\u8be5\u5bf9\u8c61\u53d8\u4e3a\u4e0a\u4e0b\u6587\u5bf9\u8c61\u3002\u4f8b\u5982\uff0c\u7528with\u8bed\u53e5\u4f7f\u7528`urlopen()`\uff1a\n```\nfrom contextlib import closing\nfrom urllib.request import urlopen\nwith closing(urlopen('https://www.python.org'))as page:\n    for line in page:\n        print(line)\n```\n",
-        "category": 1.0,
-        "create_time": "2018-01-03T14:23:28Z",
-        "renumber": 0.0,
-        "summary": "\u8bfb\u5199\u6587\u4ef6\u65f6\u4f7f\u7528`with`\u53ef\u4ee5\u5f88\u597d\u5730\u907f\u514d\u6587\u4ef6\u8bfb\u5199\u51fa\u9519\u6216\u8005\u662f\u5fd8\u8bb0\u5199\u5173\u95ed\u6587\u4ef6\u7684\u60c5\u51b5",
-        "tags": "[1]",
-        "title": "python with"
+    {
+        "fields": {
+            "name": "Django\u5b66\u4e60"
+        },
+        "model": "blog.category",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "name": "Django"
+        },
+        "model": "blog.tag",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "name": "python"
+        },
+        "model": "blog.tag",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "Attribution": "\u539f\u521b",
+            "author": "simple1_6",
+            "body": "- gbk\n```\nUnicodeDecodeError: \u2018gbk\u2019 codec can\u2019t decode byte 0x9d in position 1270: illegal multibyte sequence\n```\n\u8fd9\u5927\u6982\u5c31\u662futf-8\u548cgbk\u7684\u95ee\u9898\uff0c\u9047\u5230\u7684\u60c5\u51b5\u662f\u8fc7\u6ee4\u4e00\u4e2a\u6587\u4ef6\u7684\u6570\u636e\uff0c\u8fd9\u4e2a\u6587\u4ef6\u65f6gbk\u7f16\u7801\u7684\n\u89e3\u51b3\u65b9\u6cd5\uff1a\n```\n\u6539\u53d8\u6253\u5f00\u65b9\u5f0f\uff1a\nwith open ('','rb') as f:\n    f.read.decode('utf-8')\n```\n\u7528\u4e8c\u8fdb\u5236\u7684\u65b9\u6cd5\u6253\u5f00\uff0c\u7136\u540e\u518d\u8f6c\u7801\u672a`utf-8`",
+            "category": 1,
+            "create_time": "2018-03-20T10:49:56Z",
+            "renumber": 0,
+            "summary": "UnicodeDecodeError: \u2018gbk\u2019 codec can\u2019t decode byte 0x9d in position 1270: illegal multibyte sequence",
+            "tags": "[1]",
+            "title": "python\u9519\u8bef"
+        },
+        "model": "blog.post",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "Attribution": "\u539f\u521b",
+            "author": "simple1_6",
+            "body": "\u8bfb\u5199\u6587\u4ef6\u65f6\u4f7f\u7528`with`\u53ef\u4ee5\u5f88\u597d\u5730\u907f\u514d\u6587\u4ef6\u8bfb\u5199\u51fa\u9519\u6216\u8005\u662f\u5fd8\u8bb0\u5199\u5173\u95ed\u6587\u4ef6\u7684\u60c5\u51b5\n\u4f8b\u5982\uff0c\u6253\u5f00\u4e00\u4e2a\u6587\u4ef6\u8bfb\u5199\uff1a\n```\nf=open('F:\\python\\mytest\\mytest\\.idea\\contextlib_code.py')\nf.read()\nf.close()\n```\n\u6216\u8005\u662f\uff1a\n```\ntry:\n    f=open('F:\\python\\mytest\\mytest\\.idea\\contextlib_code.py')\n    f.read()\nfinally: \n    f.close()\n```\n\u6bd4\u8f83\u9ebb\u70e6\uff0c\u4f7f\u7528`with`\u8bed\u53e5\u53ef\u4ee5\u7701\u4e8b\n\n\u8bed\u6cd5\uff1a`with open('/path/to/contextlib_code.py', 'r') as f: `\n`with`\u8bed\u53e5\u5fc5\u8ddf`__enter__()`\u548c`__exit__()`\n\n\u610f\u4e49\u5728\u4e8e\uff1a\n\u7b2c\u4e00\u6b65\uff1a\u6267\u884c`__enter__()`\u5c06\u5176\u8fd4\u56de\u503c\u5e26\u7ed9`with`\n\u7b2c\u4e8c\u6b65\uff1a\u6267\u884c`with`\n\u7b2c\u4e09\u6b65\uff1a\u6267\u884c`__exit__()`\n\u4e3e\u4f8b\uff1a\n\n\n[\u5f15\u7528\u5ed6\u96ea\u5cf0python 3\u6559\u7a0b\uff1a](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001478651770626de401ff1c0d94f379774cabd842222ff000)\n```\n#-*- coding: utf-8 -*-\n\"\"\"\n#\u4f7f\u7528with\u8bed\u53e5\uff0c\u770b\u6267\u884c\u5148\u540e\u987a\u5e8f\n\"\"\"\nclass Query(object):\n    def __init__(self,name):\n        self.name=name\n    def __enter__(self):  #\u7b2c\u4e00\u6b65\u6267\u884c__enter__\n        print('Begin')\n        return self\n    def __exit__(self,exc_type,exc_value,tracback):  #\u7b2c\u4e09\u6b65\u6267\u884c\uff1a__exit__\n        if exc_type:\n            print('Error')\n        else:\n            print('End')\n    def query(self):\n        print('Query info about %s...' % self.name)\n\nwith Query('Bob') as q:                           #\u7b2c\u4e8c\u90e8\u6267\u884c\uff1a__with__\n    q.query()\n\n```\n\u6267\u884c\u7ed3\u679c\uff1a\n```\nBegin\nQuery info about Bob...\nEnd\n```\n\u539f\u7406\u662f\uff1a\n```\nwith context_expression [as target(s)]:\n    with-body\uff0c\n```\n   \u5b83\u7684\u6267\u884c\u987a\u5e8f\u662f\u8fd9\u6837\u7684\n\n1.\u6267\u884c context_expression\uff0c\u751f\u6210\u4e0a\u4e0b\u6587\u7ba1\u7406\u5668 context_manager\n\n2.\u8c03\u7528\u4e0a\u4e0b\u6587\u7ba1\u7406\u5668\u7684 enter() \u65b9\u6cd5\uff1b\u5982\u679c\u4f7f\u7528\u4e86 as \u5b50\u53e5\uff0c\u5219\u5c06 enter() \u65b9\u6cd5\u7684\u8fd4\u56de\u503c\u8d4b\u503c\u7ed9 as \u5b50\u53e5\u4e2d\u7684 target(s) \n\n3.\u6267\u884c\u8bed\u53e5\u4f53 with-body \n\n4.\u4e0d\u7ba1\u662f\u5426\u6267\u884c\u8fc7\u7a0b\u4e2d\u662f\u5426\u53d1\u751f\u4e86\u5f02\u5e38\uff0c\u6267\u884c\u4e0a\u4e0b\u6587\u7ba1\u7406\u5668\u7684 exit() \u65b9\u6cd5\uff0cexit() \u65b9\u6cd5\u8d1f\u8d23\u6267\u884c\u201c\u6e05\u7406\u201d\u5de5\u4f5c\uff0c\u5982\u91ca\u653e\u8d44\u6e90\u7b49\u3002\u5982\u679c\u6267\u884c\u8fc7\u7a0b\u4e2d\u6ca1\u6709\u51fa\u73b0\u5f02\u5e38\uff0c\u6216\u8005\u8bed\u53e5\u4f53\u4e2d\u6267\u884c\u4e86\u8bed\u53e5 break/continue/return\uff0c\u5219\u4ee5 None \u4f5c\u4e3a\u53c2\u6570\u8c03\u7528 exit(None, None, None) \uff1b\u5982\u679c\u6267\u884c\u8fc7\u7a0b\u4e2d\u51fa\u73b0\u5f02\u5e38\uff0c\u5219\u4f7f\u7528 sys.exc_info \u5f97\u5230\u7684\u5f02\u5e38\u4fe1\u606f\u4e3a\u53c2\u6570\u8c03\u7528 exit(exc_type, exc_value, exc_traceback)\n\n5.\u51fa\u73b0\u5f02\u5e38\u65f6\uff0c\u5982\u679c exit(type, value, traceback) \u8fd4\u56de False\uff0c\u5219\u4f1a\u91cd\u65b0\u629b\u51fa\u5f02\u5e38\uff0c\u8ba9with \u4e4b\u5916\u7684\u8bed\u53e5\u903b\u8f91\u6765\u5904\u7406\u5f02\u5e38\uff0c\u8fd9\u4e5f\u662f\u901a\u7528\u505a\u6cd5\uff1b\u5982\u679c\u8fd4\u56de True\uff0c\u5219\u5ffd\u7565\u5f02\u5e38\uff0c\u4e0d\u518d\u5bf9\u5f02\u5e38\u8fdb\u884c\u5904\u7406 \n\u8fd8\u6709\u4e00\u79cd\u65b9\u6cd5\u662f\u4f7f\u7528`contextlib`\u7684`contextmanager`\u7b80\u5316\u4f7f\u7528`__enter__`\u548c`__exit__`\n\u4f7f\u7528\u65b9\u6cd5\uff1a\n\n1.\u7528`yield`\u4ee3\u66ff`__enter__`\uff0c\u9996\u5148\u6267\u884c`yield`\u524d\u7684\u8bed\u53e5\uff0c\u7136\u540e\u6267\u884c`with`\u540e\u518d\u6b21\u6267\u884c`yield`\u540e\u7684\u8bed\u53e5\n\n\u4f8b\u5b50:[\u6765\u6e90\u4e8e\u5ed6\u96ea\u5cf0 python3 \u6559\u7a0b](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001478651770626de401ff1c0d94f379774cabd842222ff000)\n```\nfrom  contextlib import contextmanager\nclass Query(object):\n    def __init__(self,name):\n        self.name=name\n    def query(self):\n        print('Query info about %s...' % self.name)\n\n@contextmanager\ndef create_query(name):\n    print('Begin')\n    q=Query(name)\n    yield q\n    print('End')\n\nwith create_query('Bob') as q:\n    q.query()\n```\n\u7ed3\u679c\uff1a\n```\nBegin\nQuery info about Bob...\nEnd\n```\n\u5f53\u7136\u8fd9\u4e24\u79cd\u65b9\u6cd5\u90fd\u662f\u9700\u8981\u6709\u4e0a\u4e0b\u6587\u7684\uff0c\u5982\u679c\u4e00\u4e2a\u5bf9\u8c61\u6ca1\u6709\u4e0a\u4e0b\u6587\uff0c\u5219\u6ca1\u6709\u529e\u6cd5\u4f7f\u7528`with`\u548c`contextmanage`\n## `@closing`\u89e3\u51b3\u4e86\u6ca1\u6709\u4e0a\u4e0b\u6587\u7684\u60c5\u51b5\n\u53ef\u4ee5\u7528`closing()`\u6765\u628a\u8be5\u5bf9\u8c61\u53d8\u4e3a\u4e0a\u4e0b\u6587\u5bf9\u8c61\u3002\u4f8b\u5982\uff0c\u7528with\u8bed\u53e5\u4f7f\u7528`urlopen()`\uff1a\n```\nfrom contextlib import closing\nfrom urllib.request import urlopen\nwith closing(urlopen('https://www.python.org'))as page:\n    for line in page:\n        print(line)\n```\n",
+            "category": 1,
+            "create_time": "2018-01-03T14:23:28Z",
+            "renumber": 0,
+            "summary": "\u8bfb\u5199\u6587\u4ef6\u65f6\u4f7f\u7528`with`\u53ef\u4ee5\u5f88\u597d\u5730\u907f\u514d\u6587\u4ef6\u8bfb\u5199\u51fa\u9519\u6216\u8005\u662f\u5fd8\u8bb0\u5199\u5173\u95ed\u6587\u4ef6\u7684\u60c5\u51b5",
+            "tags": "[1]",
+            "title": "python with"
+        },
+        "model": "blog.post",
+        "pk": 2
     }
-}
+]
