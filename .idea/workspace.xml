@@ -5,213 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60074136-a42f-4dcd-b3f0-3417a688f534" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/web_0127.iml" afterPath="$PROJECT_DIR$/.idea/web_0127.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/blogimf.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/post_xiangqing.xlsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.0.1.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.0.1.dist-info/INSTALLER" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.0.1.dist-info/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.0.1.dist-info/METADATA" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.0.1.dist-info/RECORD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.0.1.dist-info/WHEEL" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.0.1.dist-info/entry_points.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.0.1.dist-info/metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.0.1.dist-info/top_level.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/be/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/be/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/be/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/be/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/cs/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/cs/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/cs/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/cs/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/da/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/da/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/da/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/da/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/dsb/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/dsb/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/dsb/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/dsb/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/eo/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/eo/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/eo/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/eo/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/es_AR/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/es_AR/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/es_AR/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/es_AR/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/eu/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/eu/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/eu/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/eu/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/hsb/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/hsb/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/hsb/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/hsb/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/id/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/id/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/id/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/id/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ja/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ja/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ja/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ja/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ka/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ka/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ka/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ka/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ko/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ko/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ko/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ko/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/lt/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/lt/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/lt/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/lt/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/lv/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/lv/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/lv/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/lv/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/mn/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/mn/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/mn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/mn/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ne/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ne/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ne/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ne/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/pl/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/pl/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/pl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/pl/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ro/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ro/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ro/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ro/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ru/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ru/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ru/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ru/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/sk/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/sk/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/sk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/sk/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/sl/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/sl/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/sl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/sl/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/sr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/sr/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/sr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/sr/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/th/formats.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/th/formats.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/tr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/tr/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/tr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/tr/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/zh_Hans/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/zh_Hans/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/zh_Hans/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/zh_Hans/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/zh_Hant/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/zh_Hant/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/zh_Hant/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/zh_Hant/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/eo/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/eo/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/eo/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/eo/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/mn/LC_MESSAGES/djangojs.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/mn/LC_MESSAGES/djangojs.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/mn/LC_MESSAGES/djangojs.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/mn/LC_MESSAGES/djangojs.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/pl/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/pl/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/pl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/pl/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/sr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/sr/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/sr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/sr/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/sr/LC_MESSAGES/djangojs.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/sr/LC_MESSAGES/djangojs.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/sr/LC_MESSAGES/djangojs.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/sr/LC_MESSAGES/djangojs.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/zh_Hans/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/zh_Hans/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/zh_Hans/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/zh_Hans/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/zh_Hans/LC_MESSAGES/djangojs.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/zh_Hans/LC_MESSAGES/djangojs.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/zh_Hans/LC_MESSAGES/djangojs.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/zh_Hans/LC_MESSAGES/djangojs.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/widgets.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/widgets.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/middleware.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/middleware.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/utils.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/utils.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/views.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/views.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/base_user.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/base_user.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/forms.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/forms.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/eo/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/eo/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/eo/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/eo/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/eu/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/eu/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/eu/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/eu/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/fr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/fr/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/fr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/fr/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/id/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/id/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/id/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/id/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/ka/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/ka/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/ka/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/ka/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/lv/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/lv/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/lv/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/lv/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/ne/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/ne/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/ne/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/ne/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/ro/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/ro/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/ro/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/ro/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/sl/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/sl/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/sl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/sl/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/zh_Hans/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/zh_Hans/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/zh_Hans/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/zh_Hans/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/zh_Hant/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/zh_Hant/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/zh_Hant/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/zh_Hant/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/views.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/views.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sr/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sr/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sr/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sr/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/forms/fields.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/forms/fields.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/forms/widgets.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/forms/widgets.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/geometry.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/geometry.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sr/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sr/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sr/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sr/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/messages/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/messages/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/apps.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/apps.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/cs/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/cs/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/cs/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/cs/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/sr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/sr/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/sr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/sr/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/zh_Hans/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/zh_Hans/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/zh_Hans/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/zh_Hans/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/sr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/sr/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/sr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/sr/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sites/locale/sr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sites/locale/sr/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sites/locale/sr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sites/locale/sr/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/core/management/commands/runserver.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/core/management/commands/runserver.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/base/schema.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/base/schema.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/mysql/base.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/mysql/base.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/migrations/questioner.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/migrations/questioner.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/deletion.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/deletion.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/expressions.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/expressions.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/fields/files.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/fields/files.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/query.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/query.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/query_utils.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/query_utils.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/signals.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/signals.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/sql/compiler.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/sql/compiler.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/dispatch/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/dispatch/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/widgets.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/widgets.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/utils/archive.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/utils/archive.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/utils/html.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/utils/html.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/utils/text.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/utils/text.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/views/templates/default_urlconf.html" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/views/templates/default_urlconf.html" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_haystack-2.8.0-py3.6.egg-info/PKG-INFO" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_haystack-2.8.0-py3.6.egg-info/SOURCES.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_haystack-2.8.0-py3.6.egg-info/dependency_links.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_haystack-2.8.0-py3.6.egg-info/installed-files.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_haystack-2.8.0-py3.6.egg-info/not-zip-safe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_haystack-2.8.0-py3.6.egg-info/requires.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_haystack-2.8.0-py3.6.egg-info/top_level.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/haystack/fields.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/haystack/fields.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2017.3.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2017.3.dist-info/INSTALLER" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2017.3.dist-info/METADATA" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2017.3.dist-info/RECORD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2017.3.dist-info/WHEEL" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2017.3.dist-info/metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2017.3.dist-info/top_level.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2017.3.dist-info/zip-safe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/__init__.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/exceptions.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/exceptions.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/lazy.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/lazy.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/reference.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/reference.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/tzfile.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/tzfile.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/tzinfo.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/tzinfo.py" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Africa/Bissau" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Africa/Bissau" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Africa/Sao_Tome" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Africa/Sao_Tome" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Campo_Grande" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Campo_Grande" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Cuiaba" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Cuiaba" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Grand_Turk" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Grand_Turk" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Jamaica" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Jamaica" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/La_Paz" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/La_Paz" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Montevideo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Montevideo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Sao_Paulo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Sao_Paulo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Antarctica/Casey" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Antarctica/Casey" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Gaza" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Gaza" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Hebron" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Hebron" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Macao" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Macao" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Macau" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Macau" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Tokyo" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Tokyo" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/Azores" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/Azores" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/Cape_Verde" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/Cape_Verde" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/Madeira" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/Madeira" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Brazil/East" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Brazil/East" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Lisbon" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Lisbon" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Jamaica" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Jamaica" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Japan" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Japan" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Enderbury" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Enderbury" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Kiritimati" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Kiritimati" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Portugal" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Portugal" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/US/Pacific-New" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/leapseconds" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/leapseconds" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/localtime" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/tzdata.zi" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/tzdata.zi" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/zone.tab" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/zone.tab" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/zone1970.tab" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/zone1970.tab" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/django-admin.exe" afterPath="$PROJECT_DIR$/venv/Scripts/django-admin.exe" />
       <change beforePath="$PROJECT_DIR$/web_0127/settings.py" afterPath="$PROJECT_DIR$/web_0127/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -241,8 +34,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web_0127/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="59" lean-forward="false" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+            <state relative-caret-position="254">
+              <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -375,8 +168,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1209" />
-    <option name="y" value="12" />
+    <option name="x" value="172" />
+    <option name="y" value="198" />
     <option name="width" value="1228" />
     <option name="height" value="1040" />
   </component>
@@ -559,14 +352,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1209" y="12" width="1228" height="1040" extended-state="0" />
+    <frame x="172" y="198" width="1228" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32589287" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4965909" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38077858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37045455" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37045455" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1025,8 +819,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web_0127/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="59" lean-forward="false" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+        <state relative-caret-position="254">
+          <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
           <folding />
         </state>
       </provider>
