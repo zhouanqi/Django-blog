@@ -24,9 +24,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = ')g%43m@xz)7dmp(*_h8b=-5$l3wagerp65k5xj-01vs2+!1cz#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
+DEBUG = False
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.simple1-6.com']
 
 
 # Application definition
@@ -39,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'haystack',
-    'blog',#ע��blogӦ��
+    'blog',
     'comments'
 ]
 
@@ -130,3 +129,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
