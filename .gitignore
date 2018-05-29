@@ -1,0 +1,9 @@
+#sql
+db.sqlite3
+/fixtures
+#windows
+#pycharm
+/.idea
+/venv
+/ven1
+
